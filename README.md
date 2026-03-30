@@ -4,6 +4,7 @@ This is a standalone static personal profile website built with:
 
 - `index.html`
 - `styles.css`
+- `embedded-assets.js`
 - `script.js`
 
 ## Preview
@@ -23,11 +24,10 @@ The quickest fields to update are:
 - `links`
 - `projects`
 - `current`
-- `photo`
 
 ## Notes
 
 - The layout is responsive for desktop and mobile.
 - Fonts are loaded from Google Fonts.
-- Add a real portrait at `assets/profile-photo.jpg` to replace the hero placeholder.
+- Images and the CV are embedded through `embedded-assets.js`, so the site can work without the `assets` folder.
 - The starter content is easy to replace with your real details.
